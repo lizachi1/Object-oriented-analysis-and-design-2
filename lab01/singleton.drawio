@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6">
+  <diagram name="Страница-1" id="u7n33lLnj9kyDcIVydP_">
+    <mxGraphModel dx="1665" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="QueueManager" vertex="1">
+          <mxGeometry height="190" width="256" x="334" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-2" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-&amp;nbsp;_instance: QueueManager" vertex="1">
+          <mxGeometry height="26" width="256" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-9" edge="1" parent="mJubqlx_ByPoCQQuFH1U-1" source="mJubqlx_ByPoCQQuFH1U-2" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.996;exitY=0.269;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="mJubqlx_ByPoCQQuFH1U-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="33" />
+              <mxPoint x="346" y="-50" />
+              <mxPoint x="128" y="-50" />
+            </Array>
+            <mxPoint x="246" y="40" as="sourcePoint" />
+            <mxPoint x="406" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-5" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _lock: Boolean" vertex="1">
+          <mxGeometry height="26" width="256" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-8" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- currentTicketNumber: Integer" vertex="1">
+          <mxGeometry height="26" width="256" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-3" parent="mJubqlx_ByPoCQQuFH1U-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="256" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-4" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GetInstance(): QueueManager" vertex="1">
+          <mxGeometry height="26" width="256" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-6" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GetNextTicket: String" vertex="1">
+          <mxGeometry height="26" width="256" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-7" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GetCurrentCount(): Integer" vertex="1">
+          <mxGeometry height="26" width="256" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-10" parent="1" style="html=1;whiteSpace=wrap;" value="Client" vertex="1">
+          <mxGeometry height="50" width="110" x="90" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-11" edge="1" parent="1" source="mJubqlx_ByPoCQQuFH1U-10" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mJubqlx_ByPoCQQuFH1U-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="150" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
