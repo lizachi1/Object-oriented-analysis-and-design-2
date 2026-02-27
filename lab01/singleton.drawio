@@ -21,7 +21,7 @@
             <mxPoint x="406" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mJubqlx_ByPoCQQuFH1U-5" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- &lt;u&gt;_lock: Boolean&lt;/u&gt;" vertex="1">
+        <mxCell id="mJubqlx_ByPoCQQuFH1U-5" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- &lt;u&gt;_lock&lt;/u&gt;" vertex="1">
           <mxGeometry height="26" width="256" y="52" as="geometry" />
         </mxCell>
         <mxCell id="mJubqlx_ByPoCQQuFH1U-8" parent="mJubqlx_ByPoCQQuFH1U-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- currentTicketNumber: Integer" vertex="1">
